@@ -1,0 +1,33 @@
+{
+    "name": "express-course",
+    "version": "0.0.0",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DRenaud/express-course.git"
+    },
+    "keywords": [
+        "express",
+        "nodejs",
+        "course",
+        "CESI"
+    ],
+    "author": "Damien Renaud <damien.renaud@erudo.fr>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DRenaud/express-course/issues"
+    },
+    "homepage": "https://github.com/DRenaud/express-course#readme",
+    "scripts": {
+        "start": "node ./bin/www",
+        "debug": "DEBUG=myapp:* npm start"
+    },
+    "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "ejs": "~2.6.1",
+        "express": "~4.16.1",
+        "http-errors": "~1.6.3",
+        "morgan": "~1.9.1"
+    }
+}
